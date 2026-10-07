@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snapchat Inspired</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="phone-frame">
+        <div class="status-bar">
+          <span>9:41</span>
+          <div class="status-icons">
+            <span>◔</span>
+            <span>📶</span>
+            <span>🔋</span>
+          </div>
+        </div>
+
+        <header class="topbar">
+          <div class="brand-group">
+            <div class="ghost-badge"></div>
+            <div class="brand">Snap</div>
+          </div>
+          <div class="header-actions">
+            <button class="header-btn" aria-label="Search">⌕</button>
+            <button class="header-btn" aria-label="Notifications">⚑</button>
+          </div>
+        </header>
+
+        <main class="viewport">
+          <section class="screen active" data-screen="home">
+            <div class="stories-wrapper">
+              <div class="story-item story-self">
+                <div class="story-ring">
+                  <div class="story-avatar avatar-me">Y</div>
+                </div>
+                <span>Your Story</span>
+              </div>
+              <div class="story-item">
+                <div class="story-ring ring-purple">
+                  <div class="story-avatar avatar-a">A</div>
+                </div>
+                <span>Ava</span>
+              </div>
+              <div class="story-item">
+                <div class="story-ring ring-gold">
+                  <div class="story-avatar avatar-j">J</div>
+                </div>
+                <span>Jude</span>
+              </div>
+              <div class="story-item">
+                <div class="story-ring ring-pink">
+                  <div class="story-avatar avatar-m">M</div>
+                </div>
+                <span>Mia</span>
+              </div>
+            </div>
+
+            <div class="feed-card">
+              <div class="feed-header">
+                <div class="profile-mini">
+                  <div class="mini-avatar avatar-a">A</div>
+                  <span>Ava</span>
+                </div>
+                <button class="more-btn">•••</button>
+              </div>
+
+              <div class="photo-scene">
+                <div class="sun-glow"></div>
+                <div class="city-glow"></div>
+                <div class="scene-model">
+                  <div class="figure-head"></div>
+                  <div class="figure-body"></div>
+                </div>
+              </div>
+
+              <div class="card-actions">
+                <div class="left-actions">
+                  <button class="action-btn heart-btn" aria-label="Like">♡</button>
+                  <button class="action-btn" aria-label="Comment">💬</button>
+                  <button class="action-btn" aria-label="Share">↗</button>
+                </div>
+                <button class="action-btn save-btn" aria-label="Save">⎈</button>
+              </div>
+
+              <div class="caption-row">
+                <strong>Ava</strong>
+                <span>Weekend vibes ✨</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="screen" data-screen="chat">
+            <div class="panel-head">
+              <h2>Chats</h2>
+              <button class="small-btn">＋</button>
+            </div>
+
+            <div class="chat-list">
+              <div class="chat-item unread">
+                <div class="chat-avatar avatar-a">A</div>
+                <div class="chat-content">
+                  <div class="chat-topline">
+                    <strong>Ava</strong>
+                    <span>2m</span>
+                  </div>
+                  <p>Do you want to hang out after school?</p>
+                </div>
+              </div>
+
+              <div class="chat-item">
+                <div class="chat-avatar avatar-j">J</div>
+                <div class="chat-content">
+                  <div class="chat-topline">
+                    <strong>Jude</strong>
+                    <span>12m</span>
+                  </div>
+                  <p>Sent you a snap 😎</p>
+                </div>
+              </div>
+
+              <div class="chat-item">
+                <div class="chat-avatar avatar-m">M</div>
+                <div class="chat-content">
+                  <div class="chat-topline">
+                    <strong>Mia</strong>
+                    <span>1h</span>
+                  </div>
+                  <p>Can you send me the homework pics?</p>
+                </div>
+              </div>
+
+              <div class="chat-item">
+                <div class="chat-avatar avatar-l">L</div>
+                <div class="chat-content">
+                  <div class="chat-topline">
+                    <strong>Liam</strong>
+                    <span>3h</span>
+                  </div>
+                  <p>We should study together tomorrow.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="screen camera-screen" data-screen="camera">
+            <div class="camera-overlay">
+              <div class="camera-circle"></div>
+              <div class="camera-ring"></div>
+              <div class="capture-button">
+                <div class="capture-inner"></div>
+              </div>
+              <div class="camera-label">Camera</div>
+            </div>
+          </section>
+
+          <section class="screen" data-screen="discover">
+            <div class="panel-head">
+              <h2>Discover</h2>
+            </div>
+
+            <div class="discover-grid">
+              <div class="discover-card card-pink">
+                <span>Trending</span>
+              </div>
+              <div class="discover-card card-purple">
+                <span>Music</span>
+              </div>
+              <div class="discover-card card-gold">
+                <span>School</span>
+              </div>
+              <div class="discover-card card-blue">
+                <span>Games</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="screen" data-screen="profile">
+            <div class="profile-card">
+              <div class="profile-top">
+                <div class="profile-large avatar-me">Y</div>
+                <div>
+                  <h2>Your Name</h2>
+                  <p>@yourusername</p>
+                </div>
+              </div>
+
+              <div class="stats-row">
+                <div><strong>184</strong><span>Snaps</span></div>
+                <div><strong>92</strong><span>Friends</span></div>
+                <div><strong>46k</strong><span>Views</span></div>
+              </div>
+
+              <div class="profile-badges">
+                <span>🎉 Fun</span>
+                <span>📚 School</span>
+                <span>🎵 Music</span>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <nav class="bottom-nav">
+          <button class="nav-item active" data-target="home" aria-label="Home">◉</button>
+          <button class="nav-item" data-target="chat" aria-label="Chats">💬</button>
+          <button class="nav-item camera-button" data-target="camera" aria-label="Camera">◌</button>
+          <button class="nav-item" data-target="discover" aria-label="Discover">⌂</button>
+          <button class="nav-item" data-target="profile" aria-label="Profile">☰</button>
+        </nav>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
